@@ -22,7 +22,7 @@ spec:
       securityContext:
         runAsUser: 0
       command:
-        - cat
+        - sleep 60
       tty: true
       resources:
         requests:
